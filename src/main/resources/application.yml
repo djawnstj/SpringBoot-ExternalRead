@@ -1,0 +1,13 @@
+#spring:
+#  profiles:
+#    active: prod
+
+my:
+  datasource:
+    url: local.db.com
+    username: username
+    password: password
+    etc:
+      max-connection: 1
+      timeout: 3500ms
+      options: CACHE, ADMIN
